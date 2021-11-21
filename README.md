@@ -6,9 +6,8 @@ En este README pretendo abarcar las configuraciones basicas necesarias de Kali L
 Video de referencia:
 [BLACKMANTISECURITY](https://youtu.be/6UnvG7ulAZY)
 
-______________________
+
 ## PIP
-______________________
 
 Pip es es un gestor de paquetes de Python.
 
@@ -19,9 +18,9 @@ sudo apt install python3-pip
 
 `pip freeze` <--- Nos detalle todas las librerias (de Python) que tenemos instaladas.
 
-______________________
+
 ## PATH
-______________________
+
 En nuestra terminal, ejecutamos:
 `echo $PATH`
 `cat .profile`     <<== Lugar donde existe el archivo zshrc
@@ -51,10 +50,7 @@ Esto resuelve todos los problemas de `Warning` en referencia a los PATH.
 ### Siguiente paso: 
 code .zshrc      <=== Abrimos ese archivo con nuestro editor de codigo fav (Visual Studio Code)
 
-______________________
 ## ENVIROMENTS
-______________________
-
 Variables de entorno.
 
 Instalacones necesarias:
@@ -101,8 +97,8 @@ En esta instancia, efectivamente tenemos Pyenv, PERO, tendremos acceso a el unic
 Ahora podemos ejecutar (en una nueva terminal): `pyenv`
 
 
-____________________
-Lecturas sugeridas:
-____________________
+## Lecturas sugeridas:
+
 [Otorgar permisos en Kali](https://www.hostinger.es/tutoriales/cambiar-permisos-y-propietarios-linux-linea-de-comandos/)
+
 [Rutas relativas vs Rutas absolutas](https://www.zeppelinux.es/rutas-relativas-y-rutas-absolutas-en-linux/)
