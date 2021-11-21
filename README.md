@@ -94,7 +94,7 @@ echo 'export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.zshrc
 echo 'eval "$(pyenv init --path)"' >> ~/.zshrc
 ```
 
-### Nota importante:
+### Nota importante: 
 
 En esta instancia, efectivamente tenemos Pyenv, PERO, tendremos acceso a el unicamente, al abrir una nueva terminal. Porque, recordar que el archivo .zshrc se ejecuta CADA VEZ, que se abre una nueva instancia de la misma.
 
