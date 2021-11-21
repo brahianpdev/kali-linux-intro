@@ -96,6 +96,13 @@ En esta instancia, efectivamente tenemos Pyenv, PERO, tendremos acceso a el unic
 
 Ahora podemos ejecutar (en una nueva terminal): `pyenv`
 
+A modo de practica, instalaremos:
+`pyenv install 3.8.10`     
+
+Y posteriormente:
+`pyenv virtualenv 3.8.10 HTB` 
+
+El primer comando, nos installa la version 3.8.10 de Python, mientras que el segundo, nos crea un entorno virtual llamado HTB (Hack the Box).
 
 ## Lecturas sugeridas:
 
